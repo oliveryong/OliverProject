@@ -41,7 +41,7 @@ export default function App() {
       <Text> Enter name of Beer: </Text>
       <TextInput 
        style={styles.input}
-       placeholder='Enter Beer'
+       placeholder='Enter Beer Name'
        value={newBeer}
        onChangeText={(text)=>setNewBeer(text)}
       />
